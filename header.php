@@ -30,7 +30,7 @@ $whatsapp = get_site_setting('whatsapp', '919876543210');
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Playfair+Display:ital,wght@1,600;1,700;1,800&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
     
     <!-- Custom Theme CSS -->
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=2.5">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/style.css?v=2.6">
 </head>
 <body>
 
