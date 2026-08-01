@@ -321,8 +321,24 @@ a {
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1) !important;
 }
 
+/* --- Subpages Top Offset Lock for Fixed Header --- */
+section.bg-light.border-bottom:first-of-type,
+section.py-3.bg-light.border-bottom,
+section.py-4.bg-light.border-bottom,
+.page-header-banner {
+    padding-top: 85px !important;
+    padding-bottom: 20px !important;
+}
+
 /* Mobile Responsiveness Clean Layout */
 @media (max-width: 991.98px) {
+    section.bg-light.border-bottom:first-of-type,
+    section.py-3.bg-light.border-bottom,
+    section.py-4.bg-light.border-bottom,
+    .page-header-banner {
+        padding-top: 80px !important;
+        padding-bottom: 20px !important;
+    }
     html, body {
         padding-top: 0 !important;
         margin: 0 !important;
