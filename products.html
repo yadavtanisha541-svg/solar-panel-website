@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Products - Panels, Inverters, Batteries &amp; Water Heaters - SolarSphere</title>
+    <meta name="description" content="Leading Solar Panel Installation, High Efficiency Inverters, Solar Batteries & Solar Water Heaters. Save up to 90% on electricity bills.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- AOS Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Playfair+Display:ital,wght@1,600;1,700;1,800&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Theme CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=3.0">
+</head>
+<body>
+
+
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-solar fixed-top">
+    <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand me-4" href="index.html">
+            <i class="fa-solid fa-sun fs-2 text-warning"></i>
+            <span>Solar<span style="color: var(--primary-color);">Sphere</span></span>
+        </a>
+        <button class="navbar-toggler border-0 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavbar" aria-controls="mobileNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right Side Offcanvas Mobile Menu & Desktop Navigation -->
+        <div class="offcanvas-lg offcanvas-end bg-white" tabindex="-1" id="mobileNavbar" aria-labelledby="mobileNavbarLabel">
+            <div class="offcanvas-header border-bottom py-3 px-4 d-lg-none">
+                <a class="navbar-brand m-0" href="index.html">
+                    <i class="fa-solid fa-sun fs-3 text-warning"></i>
+                    <span class="fs-5 font-weight-bold">Solar<span style="color: var(--primary-color);">Sphere</span></span>
+                </a>
+                <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" data-bs-target="#mobileNavbar" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-4 p-lg-0 align-items-center">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="calculator.html">Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-auto mt-4 mt-lg-0">
+                    <button class="btn btn-solar-nav w-100 w-lg-auto" data-bs-toggle="modal" data-bs-target="#siteSurveyModal" data-bs-dismiss="offcanvas">
+                        <i class="fa-solid fa-clipboard-check me-1"></i> Free Site Survey
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi%20Solar%20Shop,%20I%20want%20information%20regarding%20solar%20panel%20installation." class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Unified Header & Filter Control Box -->
+<section class="py-4 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center mb-3">
+            <h2 class="font-weight-bold text-dark mb-1 fs-3">Solar Products Catalog</h2>
+            <p class="text-secondary small mb-0">High efficiency solar equipment backed by 25-year warranty &amp; official manufacturer support.</p>
+        </div>
+
+        <!-- Combined Filter & Search Bar in Single Unified Box -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <form action="products.html" method="GET">
+                    <div class="input-group shadow-sm">
+                        <!-- Category Select Dropdown -->
+                        <select name="cat" class="form-select border-secondary-subtle bg-white px-3 font-weight-medium" style="max-width: 220px;" onchange="this.form.submit()">
+                            <option value="">All Categories</option>
+                                                            <option value="solar-panels" >
+                                    Solar Panels                                </option>
+                                                            <option value="solar-inverters" >
+                                    Solar Inverters                                </option>
+                                                            <option value="solar-batteries" >
+                                    Solar Batteries                                </option>
+                                                            <option value="solar-water-heaters" >
+                                    Solar Water Heaters                                </option>
+                                                            <option value="solar-street-lights" >
+                                    Solar Street Lights                                </option>
+                                                    </select>
+                        
+                        <!-- Search Input -->
+                        <input type="text" name="q" class="form-control px-3" placeholder="Search panel, inverter, battery..." value="">
+                        
+                        <!-- Search Button -->
+                        <button class="btn btn-solar-primary px-4" type="submit"><i class="fa-solid fa-search me-1"></i> Search</button>
+                        
+                                            </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Products Section -->
+<section class="py-4">
+    <div class="container">
+
+        <!-- Products Grid -->
+        <div class="row g-4">
+                                                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Street Lights</span>
+                                <img src="assets/images/street-light-30w.jpg" alt="All-In-One Integrated LED Solar Street Light 30W" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">All-In-One Integrated LED Solar Street Light 30W</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 30W LED / 12V Solar</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹12,800.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹14,500.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=7" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20All-In-One+Integrated+LED+Solar+Street+Light+30W" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Water Heaters</span>
+                                <img src="assets/images/water-heater-200l.jpg" alt="Supreme 200 Litres Solar Water Heater (ETC)" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Supreme 200 Litres Solar Water Heater (ETC)</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 200 Litres/Day</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹49,200.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹54,000.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=6" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Supreme+200+Litres+Solar+Water+Heater+%28ETC%29" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Batteries</span>
+                                <img src="assets/images/battery-150ah.jpg" alt="Luminous Solar Tall Tubular Battery 150Ah" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Luminous Solar Tall Tubular Battery 150Ah</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 150 Ah / 12V</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹11,999.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹14,500.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=5" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Luminous+Solar+Tall+Tubular+Battery+150Ah" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Inverters</span>
+                                <img src="assets/images/inverter-1800.jpg" alt="Luminous Solar NXG 1800 24V Pure Sine Wave" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Luminous Solar NXG 1800 24V Pure Sine Wave</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 1.5 kVA / 24V</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹25,000.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹28,500.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=4" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Luminous+Solar+NXG+1800+24V+Pure+Sine+Wave" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Inverters</span>
+                                <img src="assets/images/inverter-5kw.jpg" alt="Havells Enviro 5kW Hybrid Solar Inverter" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Havells Enviro 5kW Hybrid Solar Inverter</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 5 kW Dual MPPT</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹68,000.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹75,000.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=3" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Havells+Enviro+5kW+Hybrid+Solar+Inverter" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Panels</span>
+                                <img src="assets/images/panel-330w.jpg" alt="Tata Power Solar 330W Polycrystalline Panel" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Tata Power Solar 330W Polycrystalline Panel</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 330 Watt</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹6,600.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹8,200.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=2" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Tata+Power+Solar+330W+Polycrystalline+Panel" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="product-card">
+                            <div class="product-img-wrapper">
+                                <span class="product-badge">Solar Panels</span>
+                                <img src="assets/images/panel-540w.jpg" alt="Loom Solar 540W Mono PERC Half-Cut Panel" onerror="this.src='assets/images/panel-540w.jpg'">
+                            </div>
+                            <div class="product-content">
+                                <div>
+                                    <h5 class="product-title">Loom Solar 540W Mono PERC Half-Cut Panel</h5>
+                                    <div class="text-muted small mb-2"><i class="fa-solid fa-microchip text-warning me-1"></i> 540 Watt</div>
+                                </div>
+                                <div class="mt-auto pt-3 border-top">
+                                    <div class="d-flex align-items-baseline justify-content-between mb-2">
+                                        <span class="font-weight-bold text-dark fs-5">₹24,500.00</span>
+                                                                                    <small class="text-muted text-decoration-line-through">₹28,000.00</small>
+                                                                            </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <a href="./product-detail.php?id=1" class="btn btn-outline-secondary btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-semibold" style="border-radius: 6px;" title="View Details">
+                                            <i class="fa-solid fa-eye me-1"></i> Details
+                                        </a>
+                                        <a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi,%20I%20want%20to%20order%20Loom+Solar+540W+Mono+PERC+Half-Cut+Panel" class="btn btn-dark btn-sm flex-fill text-nowrap py-2 d-inline-flex align-items-center justify-content-center font-weight-bold" style="border-radius: 6px; background: #1F2937;" target="_blank">
+                                            <i class="fa-solid fa-cart-shopping me-1"></i> Order Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer-solar w-100 m-0">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row g-4">
+            <!-- Col 1: About -->
+            <div class="col-lg-4 col-md-6">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                    <i class="fa-solid fa-sun fs-2 text-warning"></i>
+                    <span class="fs-4 font-weight-bold text-dark" style="font-family: 'Outfit', sans-serif;">Solar<span class="text-warning">Sphere</span></span>
+                </div>
+                <p class="text-secondary small lh-base mb-3">Leading solar panel shop &amp; turn-key solar power solutions provider. We design, install and maintain top-tier solar power systems for residential, commercial &amp; industrial clients.</p>
+                <div class="d-flex gap-3 fs-5">
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="col-lg-2 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Quick Links</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                    <li><a href="index.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Home</a></li>
+                    <li><a href="about.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>About Us</a></li>
+                    <li><a href="products.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Products</a></li>
+                    <li><a href="services.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Services</a></li>
+                    <li><a href="calculator.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Calculator</a></li>
+                    <li><a href="faq.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>FAQ</a></li>
+                    <li><a href="contact.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Product Categories -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Solar Categories</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                    <li><a href="products.html?cat=solar-panels" class="text-secondary"><i class="fa-solid fa-solar-panel me-2 text-warning"></i>Solar Panels</a></li>
+                    <li><a href="products.html?cat=solar-inverters" class="text-secondary"><i class="fa-solid fa-bolt me-2 text-warning"></i>Solar Inverters</a></li>
+                    <li><a href="products.html?cat=solar-batteries" class="text-secondary"><i class="fa-solid fa-car-battery me-2 text-warning"></i>Solar Batteries</a></li>
+                    <li><a href="products.html?cat=solar-water-heaters" class="text-secondary"><i class="fa-solid fa-fire-flame-simple me-2 text-warning"></i>Solar Water Heaters</a></li>
+                    <li><a href="products.html?cat=solar-street-lights" class="text-secondary"><i class="fa-solid fa-lightbulb me-2 text-warning"></i>Solar Street Lights</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Contact Details -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Contact Details</h5>
+                <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+                    <li class="d-flex align-items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-warning fs-5 mt-1"></i>
+                        <span class="text-secondary small">Plot No. 45, Solar Energy Park, Sector 62, Noida, UP - 201301</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-phone text-warning fs-5"></i>
+                        <a href="tel:+91 98765 43210" class="text-secondary small">+91 98765 43210</a>
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-envelope text-warning fs-5"></i>
+                        <a href="mailto:info@solarpanelshop.com" class="text-secondary small">info@solarpanelshop.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center mt-5 pt-3 border-top">
+            <p class="mb-0 text-muted small">&copy; 2026 <strong>SolarSphere</strong>. All Rights Reserved. Built with Core PHP &amp; MySQL.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal: Free Site Survey Request -->
+<div class="modal fade" id="siteSurveyModal" tabindex="-1" aria-labelledby="siteSurveyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+            <div class="modal-header text-white" style="background: var(--dark-green-gradient); border-radius: 20px 20px 0 0;">
+                <h5 class="modal-title font-weight-bold" id="siteSurveyModalLabel"><i class="fa-solid fa-solar-panel me-2 text-warning"></i>Book Free Solar Site Survey</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form action="contact.html" method="POST">
+                    <input type="hidden" name="action" value="site_survey">
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Full Name *</label>
+                        <input type="text" name="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+                    </div>
+                    <div class="row g-2 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">Mobile Number *</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="+91 9876543210" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">Email Address</label>
+                            <input type="email" name="email" class="form-control" placeholder="name@email.com">
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">City / Location *</label>
+                            <input type="text" name="city" class="form-control" placeholder="e.g. New Delhi" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">System Requirement</label>
+                            <select name="system_type" class="form-select">
+                                <option value="Residential Solar (3kW - 10kW)">Residential (3kW - 10kW)</option>
+                                <option value="Commercial Solar (10kW - 100kW)">Commercial (10kW - 100kW)</option>
+                                <option value="Solar Water Heater">Solar Water Heater</option>
+                                <option value="Solar Battery / Inverter">Inverter & Battery</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Average Monthly Electricity Bill</label>
+                        <select name="monthly_bill" class="form-select">
+                            <option value="Under ₹5,000">Under ₹5,000</option>
+                            <option value="₹5,000 - ₹15,000">₹5,000 - ₹15,000</option>
+                            <option value="₹15,000 - ₹50,000">₹15,000 - ₹50,000</option>
+                            <option value="Above ₹50,000">Above ₹50,000</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Additional Details</label>
+                        <textarea name="message" class="form-control" rows="2" placeholder="Tell us about your rooftop area or requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-solar-primary w-100 py-3">Submit Site Survey Request <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Lightbox Image Popup -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body text-center p-0">
+                <img id="lightboxModalImage" src="" class="img-fluid rounded-4 shadow-lg mb-2" alt="Solar Project Preview">
+                <h5 id="lightboxModalTitle" class="text-white mt-2"></h5>
+                <button type="button" class="btn btn-sm btn-light mt-3" data-bs-dismiss="modal">Close Preview</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/animations.js"></script>
+
+</body>
+</html>

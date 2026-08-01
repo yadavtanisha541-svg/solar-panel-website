@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Projects Gallery - Completed Solar Installations - SolarSphere</title>
+    <meta name="description" content="Leading Solar Panel Installation, High Efficiency Inverters, Solar Batteries & Solar Water Heaters. Save up to 90% on electricity bills.">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- AOS Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Playfair+Display:ital,wght@1,600;1,700;1,800&family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Theme CSS -->
+    <link rel="stylesheet" href="assets/css/style.css?v=3.0">
+</head>
+<body>
+
+
+
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-solar fixed-top">
+    <div class="container-fluid px-4 px-lg-5">
+        <a class="navbar-brand me-4" href="index.html">
+            <i class="fa-solid fa-sun fs-2 text-warning"></i>
+            <span>Solar<span style="color: var(--primary-color);">Sphere</span></span>
+        </a>
+        <button class="navbar-toggler border-0 p-2 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNavbar" aria-controls="mobileNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right Side Offcanvas Mobile Menu & Desktop Navigation -->
+        <div class="offcanvas-lg offcanvas-end bg-white" tabindex="-1" id="mobileNavbar" aria-labelledby="mobileNavbarLabel">
+            <div class="offcanvas-header border-bottom py-3 px-4 d-lg-none">
+                <a class="navbar-brand m-0" href="index.html">
+                    <i class="fa-solid fa-sun fs-3 text-warning"></i>
+                    <span class="fs-5 font-weight-bold">Solar<span style="color: var(--primary-color);">Sphere</span></span>
+                </a>
+                <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" data-bs-target="#mobileNavbar" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-4 p-lg-0 align-items-center">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="calculator.html">Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center ms-lg-auto mt-4 mt-lg-0">
+                    <button class="btn btn-solar-nav w-100 w-lg-auto" data-bs-toggle="modal" data-bs-target="#siteSurveyModal" data-bs-dismiss="offcanvas">
+                        <i class="fa-solid fa-clipboard-check me-1"></i> Free Site Survey
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://api.whatsapp.com/send?phone=919876543210&text=Hi%20Solar%20Shop,%20I%20want%20information%20regarding%20solar%20panel%20installation." class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Header Banner -->
+<section class="py-3 bg-light border-bottom">
+    <div class="container text-center py-1">
+        <h2 class="font-weight-bold text-dark mb-1 fs-3">Solar Projects Gallery</h2>
+        <p class="text-secondary small mb-0">Explore photos of our successfully installed rooftop, commercial &amp; agricultural solar plants.</p>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="py-5">
+    <div class="container">
+        
+        <!-- Filter Tabs -->
+        <div class="text-center mb-5" data-aos="fade-up">
+            <div class="btn-group flex-wrap gap-2" role="group">
+                <button type="button" class="btn btn-solar-primary gallery-filter-btn active" data-filter="all">All Projects</button>
+                <button type="button" class="btn btn-solar-outline gallery-filter-btn" data-filter="Residential">Residential</button>
+                <button type="button" class="btn btn-solar-outline gallery-filter-btn" data-filter="Commercial">Commercial</button>
+                <button type="button" class="btn btn-solar-outline gallery-filter-btn" data-filter="Agricultural">Agricultural</button>
+            </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="row g-4">
+                                                <div class="col-md-6 col-lg-4 gallery-item Residential" data-aos="fade-up">
+                        <div class="project-card">
+                            <a href="assets/images/project-4.jpg" class="project-lightbox" data-title="15kW Hybrid Solar Plant with Battery Storage">
+                                <img src="assets/images/project-4.jpg" alt="15kW Hybrid Solar Plant with Battery Storage" onerror="this.src='assets/images/project-1.jpg'">
+                                <div class="project-overlay">
+                                    <span class="badge bg-warning text-dark font-weight-bold mb-2 align-self-start">Residential • 15 kW</span>
+                                    <h5 class="font-weight-bold mb-1">15kW Hybrid Solar Plant with Battery Storage</h5>
+                                    <p class="small text-gray-200 mb-1"><i class="fa-solid fa-user me-1"></i> Dr. Verma Residency</p>
+                                    <p class="small text-gray-300 mb-0"><i class="fa-solid fa-location-dot me-1"></i> Gurugram</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4 gallery-item Agricultural" data-aos="fade-up">
+                        <div class="project-card">
+                            <a href="assets/images/project-3.jpg" class="project-lightbox" data-title="25kW Agricultural Solar Pump &amp; Power">
+                                <img src="assets/images/project-3.jpg" alt="25kW Agricultural Solar Pump &amp; Power" onerror="this.src='assets/images/project-1.jpg'">
+                                <div class="project-overlay">
+                                    <span class="badge bg-warning text-dark font-weight-bold mb-2 align-self-start">Agricultural • 25 kW</span>
+                                    <h5 class="font-weight-bold mb-1">25kW Agricultural Solar Pump &amp; Power</h5>
+                                    <p class="small text-gray-200 mb-1"><i class="fa-solid fa-user me-1"></i> Kisan Agro Farm</p>
+                                    <p class="small text-gray-300 mb-0"><i class="fa-solid fa-location-dot me-1"></i> Jaipur Rural</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4 gallery-item Commercial" data-aos="fade-up">
+                        <div class="project-card">
+                            <a href="assets/images/project-2.jpg" class="project-lightbox" data-title="50kW Commercial Factory Solar System">
+                                <img src="assets/images/project-2.jpg" alt="50kW Commercial Factory Solar System" onerror="this.src='assets/images/project-1.jpg'">
+                                <div class="project-overlay">
+                                    <span class="badge bg-warning text-dark font-weight-bold mb-2 align-self-start">Commercial • 50 kW</span>
+                                    <h5 class="font-weight-bold mb-1">50kW Commercial Factory Solar System</h5>
+                                    <p class="small text-gray-200 mb-1"><i class="fa-solid fa-user me-1"></i> Apex Textiles Ltd.</p>
+                                    <p class="small text-gray-300 mb-0"><i class="fa-solid fa-location-dot me-1"></i> Noida Industrial Area</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                                    <div class="col-md-6 col-lg-4 gallery-item Residential" data-aos="fade-up">
+                        <div class="project-card">
+                            <a href="assets/images/project-1.jpg" class="project-lightbox" data-title="10kW Rooftop On-Grid Solar Plant">
+                                <img src="assets/images/project-1.jpg" alt="10kW Rooftop On-Grid Solar Plant" onerror="this.src='assets/images/project-1.jpg'">
+                                <div class="project-overlay">
+                                    <span class="badge bg-warning text-dark font-weight-bold mb-2 align-self-start">Residential • 10 kW</span>
+                                    <h5 class="font-weight-bold mb-1">10kW Rooftop On-Grid Solar Plant</h5>
+                                    <p class="small text-gray-200 mb-1"><i class="fa-solid fa-user me-1"></i> Sharma Villa</p>
+                                    <p class="small text-gray-300 mb-0"><i class="fa-solid fa-location-dot me-1"></i> Green Park, New Delhi</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                                    </div>
+
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer-solar w-100 m-0">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="row g-4">
+            <!-- Col 1: About -->
+            <div class="col-lg-4 col-md-6">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                    <i class="fa-solid fa-sun fs-2 text-warning"></i>
+                    <span class="fs-4 font-weight-bold text-dark" style="font-family: 'Outfit', sans-serif;">Solar<span class="text-warning">Sphere</span></span>
+                </div>
+                <p class="text-secondary small lh-base mb-3">Leading solar panel shop &amp; turn-key solar power solutions provider. We design, install and maintain top-tier solar power systems for residential, commercial &amp; industrial clients.</p>
+                <div class="d-flex gap-3 fs-5">
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="text-secondary hover-accent"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="col-lg-2 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Quick Links</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                    <li><a href="index.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Home</a></li>
+                    <li><a href="about.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>About Us</a></li>
+                    <li><a href="products.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Products</a></li>
+                    <li><a href="services.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Services</a></li>
+                    <li><a href="calculator.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Calculator</a></li>
+                    <li><a href="faq.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>FAQ</a></li>
+                    <li><a href="contact.html" class="text-secondary"><i class="fa-solid fa-angle-right me-2 text-warning"></i>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Product Categories -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Solar Categories</h5>
+                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                    <li><a href="products.html?cat=solar-panels" class="text-secondary"><i class="fa-solid fa-solar-panel me-2 text-warning"></i>Solar Panels</a></li>
+                    <li><a href="products.html?cat=solar-inverters" class="text-secondary"><i class="fa-solid fa-bolt me-2 text-warning"></i>Solar Inverters</a></li>
+                    <li><a href="products.html?cat=solar-batteries" class="text-secondary"><i class="fa-solid fa-car-battery me-2 text-warning"></i>Solar Batteries</a></li>
+                    <li><a href="products.html?cat=solar-water-heaters" class="text-secondary"><i class="fa-solid fa-fire-flame-simple me-2 text-warning"></i>Solar Water Heaters</a></li>
+                    <li><a href="products.html?cat=solar-street-lights" class="text-secondary"><i class="fa-solid fa-lightbulb me-2 text-warning"></i>Solar Street Lights</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Contact Details -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="font-weight-bold text-dark mb-3">Contact Details</h5>
+                <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+                    <li class="d-flex align-items-start gap-3">
+                        <i class="fa-solid fa-location-dot text-warning fs-5 mt-1"></i>
+                        <span class="text-secondary small">Plot No. 45, Solar Energy Park, Sector 62, Noida, UP - 201301</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-phone text-warning fs-5"></i>
+                        <a href="tel:+91 98765 43210" class="text-secondary small">+91 98765 43210</a>
+                    </li>
+                    <li class="d-flex align-items-center gap-3">
+                        <i class="fa-solid fa-envelope text-warning fs-5"></i>
+                        <a href="mailto:info@solarpanelshop.com" class="text-secondary small">info@solarpanelshop.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center mt-5 pt-3 border-top">
+            <p class="mb-0 text-muted small">&copy; 2026 <strong>SolarSphere</strong>. All Rights Reserved. Built with Core PHP &amp; MySQL.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal: Free Site Survey Request -->
+<div class="modal fade" id="siteSurveyModal" tabindex="-1" aria-labelledby="siteSurveyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+            <div class="modal-header text-white" style="background: var(--dark-green-gradient); border-radius: 20px 20px 0 0;">
+                <h5 class="modal-title font-weight-bold" id="siteSurveyModalLabel"><i class="fa-solid fa-solar-panel me-2 text-warning"></i>Book Free Solar Site Survey</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-4">
+                <form action="contact.html" method="POST">
+                    <input type="hidden" name="action" value="site_survey">
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Full Name *</label>
+                        <input type="text" name="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+                    </div>
+                    <div class="row g-2 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">Mobile Number *</label>
+                            <input type="tel" name="phone" class="form-control" placeholder="+91 9876543210" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">Email Address</label>
+                            <input type="email" name="email" class="form-control" placeholder="name@email.com">
+                        </div>
+                    </div>
+                    <div class="row g-2 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">City / Location *</label>
+                            <input type="text" name="city" class="form-control" placeholder="e.g. New Delhi" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label font-weight-semibold">System Requirement</label>
+                            <select name="system_type" class="form-select">
+                                <option value="Residential Solar (3kW - 10kW)">Residential (3kW - 10kW)</option>
+                                <option value="Commercial Solar (10kW - 100kW)">Commercial (10kW - 100kW)</option>
+                                <option value="Solar Water Heater">Solar Water Heater</option>
+                                <option value="Solar Battery / Inverter">Inverter & Battery</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Average Monthly Electricity Bill</label>
+                        <select name="monthly_bill" class="form-select">
+                            <option value="Under ₹5,000">Under ₹5,000</option>
+                            <option value="₹5,000 - ₹15,000">₹5,000 - ₹15,000</option>
+                            <option value="₹15,000 - ₹50,000">₹15,000 - ₹50,000</option>
+                            <option value="Above ₹50,000">Above ₹50,000</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label font-weight-semibold">Additional Details</label>
+                        <textarea name="message" class="form-control" rows="2" placeholder="Tell us about your rooftop area or requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-solar-primary w-100 py-3">Submit Site Survey Request <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal: Lightbox Image Popup -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0">
+            <div class="modal-body text-center p-0">
+                <img id="lightboxModalImage" src="" class="img-fluid rounded-4 shadow-lg mb-2" alt="Solar Project Preview">
+                <h5 id="lightboxModalTitle" class="text-white mt-2"></h5>
+                <button type="button" class="btn btn-sm btn-light mt-3" data-bs-dismiss="modal">Close Preview</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/animations.js"></script>
+
+</body>
+</html>

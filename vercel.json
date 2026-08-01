@@ -1,0 +1,15 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/index(.html)?", "dest": "/index.html" },
+    { "src": "/calculator(.html)?", "dest": "/calculator.html" },
+    { "src": "/products(.html)?", "dest": "/products.html" },
+    { "src": "/services(.html)?", "dest": "/services.html" },
+    { "src": "/about(.html)?", "dest": "/about.html" },
+    { "src": "/contact(.html)?", "dest": "/contact.html" },
+    { "src": "/faq(.html)?", "dest": "/faq.html" },
+    { "src": "/projects(.html)?", "dest": "/projects.html" }
+  ]
+}
