@@ -283,6 +283,44 @@ a {
     text-shadow: 0 0 25px rgba(245, 158, 11, 0.4);
 }
 
+/* --- Custom Full Pill Buttons for Hero Section --- */
+.btn-solar-pill-primary {
+    background: linear-gradient(135deg, #D97706 0%, #EA580C 100%) !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+.btn-solar-pill-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(217, 119, 6, 0.45) !important;
+    color: #ffffff !important;
+}
+
+.btn-solar-pill-white {
+    background: #ffffff !important;
+    color: #0F172A !important;
+    border-radius: 50px !important;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: 1px solid #E2E8F0 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+}
+.btn-solar-pill-white:hover {
+    background: #F8FAFC !important;
+    color: #0F172A !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1) !important;
+}
+
 /* Mobile Responsiveness Clean Layout */
 @media (max-width: 768px) {
     html, body {
@@ -303,10 +341,10 @@ a {
         border-bottom: 1px solid #E5E7EB !important;
     }
     .hero-section {
-        padding-top: 100px !important;
-        padding-bottom: 25px !important;
+        padding-top: 110px !important;
+        padding-bottom: 35px !important;
         height: auto !important;
-        min-height: 350px !important;
+        min-height: 420px !important;
         display: flex !important;
         align-items: flex-start !important;
         justify-content: flex-start !important;
@@ -318,37 +356,35 @@ a {
         display: block !important;
         margin: 0 !important;
         padding-left: 0 !important;
-        padding-right: 5px !important;
+        padding-right: 10px !important;
     }
     .hero-title-clean {
-        font-size: 1.25rem !important;
-        line-height: 1.2 !important;
-        text-align: left !important;
-        margin: 0 0 6px 0 !important;
-    }
-    .hero-lead-clean {
-        font-size: 0.78rem !important;
-        line-height: 1.35 !important;
+        font-size: 1.5rem !important;
+        line-height: 1.25 !important;
         text-align: left !important;
         margin: 0 0 10px 0 !important;
-        max-width: 90% !important;
+    }
+    .hero-lead-clean {
+        font-size: 0.86rem !important;
+        line-height: 1.45 !important;
+        text-align: left !important;
+        margin: 0 0 15px 0 !important;
+        max-width: 100% !important;
     }
     .hero-btn-group {
         display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        justify-content: flex-start !important;
-        align-items: center !important;
-        gap: 6px !important;
-        margin-top: 8px !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 10px !important;
+        margin-top: 15px !important;
+        width: 100% !important;
     }
     .hero-btn-group .btn {
-        font-size: 0.72rem !important;
-        padding: 5px 10px !important;
+        font-size: 0.88rem !important;
+        padding: 9px 18px !important;
         white-space: nowrap !important;
-        line-height: 1.1 !important;
-        border-radius: 4px !important;
-        flex: 0 1 auto !important;
+        line-height: 1.2 !important;
+        border-radius: 6px !important;
         display: inline-flex !important;
         align-items: center !important;
         justify-content: center !important;
