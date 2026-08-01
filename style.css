@@ -303,29 +303,44 @@ a {
         border-bottom: 1px solid #E5E7EB !important;
     }
     .hero-section {
-        padding-top: 80px !important;
+        padding-top: 120px !important;
         padding-bottom: 40px !important;
         height: auto !important;
-        min-height: 480px !important;
+        min-height: 440px !important;
+        display: flex !important;
         align-items: flex-start !important;
+        justify-content: flex-start !important;
+        text-align: left !important;
         margin-top: 0 !important;
     }
+    .hero-text-col {
+        text-align: left !important;
+        display: block !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+    }
     .hero-title-clean {
-        font-size: 2.1rem !important;
-        line-height: 1.3 !important;
-        margin-top: 5px !important;
+        font-size: 1.5rem !important;
+        line-height: 1.25 !important;
+        text-align: left !important;
+        margin: 0 0 10px 0 !important;
     }
     .hero-lead-clean {
-        font-size: 1.0rem !important;
-        line-height: 1.5 !important;
+        font-size: 0.86rem !important;
+        line-height: 1.45 !important;
+        text-align: left !important;
+        margin: 0 0 15px 0 !important;
+        max-width: 100% !important;
     }
     .hero-btn-group {
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
         gap: 8px !important;
         margin-top: 15px !important;
-        align-items: center !important;
     }
     .hero-btn-group .btn {
         font-size: 0.82rem !important;
