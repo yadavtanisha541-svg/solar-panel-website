@@ -303,10 +303,10 @@ a {
         border-bottom: 1px solid #E5E7EB !important;
     }
     .hero-section {
-        padding-top: 120px !important;
-        padding-bottom: 40px !important;
+        padding-top: 100px !important;
+        padding-bottom: 25px !important;
         height: auto !important;
-        min-height: 440px !important;
+        min-height: 350px !important;
         display: flex !important;
         align-items: flex-start !important;
         justify-content: flex-start !important;
@@ -318,20 +318,20 @@ a {
         display: block !important;
         margin: 0 !important;
         padding-left: 0 !important;
-        padding-right: 10px !important;
+        padding-right: 5px !important;
     }
     .hero-title-clean {
-        font-size: 1.5rem !important;
-        line-height: 1.25 !important;
+        font-size: 1.25rem !important;
+        line-height: 1.2 !important;
         text-align: left !important;
-        margin: 0 0 10px 0 !important;
+        margin: 0 0 6px 0 !important;
     }
     .hero-lead-clean {
-        font-size: 0.86rem !important;
-        line-height: 1.45 !important;
+        font-size: 0.78rem !important;
+        line-height: 1.35 !important;
         text-align: left !important;
-        margin: 0 0 15px 0 !important;
-        max-width: 100% !important;
+        margin: 0 0 10px 0 !important;
+        max-width: 90% !important;
     }
     .hero-btn-group {
         display: flex !important;
@@ -339,15 +339,15 @@ a {
         flex-wrap: nowrap !important;
         justify-content: flex-start !important;
         align-items: center !important;
-        gap: 8px !important;
-        margin-top: 15px !important;
+        gap: 6px !important;
+        margin-top: 8px !important;
     }
     .hero-btn-group .btn {
-        font-size: 0.82rem !important;
-        padding: 8px 14px !important;
+        font-size: 0.72rem !important;
+        padding: 5px 10px !important;
         white-space: nowrap !important;
-        line-height: 1.2 !important;
-        border-radius: 6px !important;
+        line-height: 1.1 !important;
+        border-radius: 4px !important;
         flex: 0 1 auto !important;
         display: inline-flex !important;
         align-items: center !important;
