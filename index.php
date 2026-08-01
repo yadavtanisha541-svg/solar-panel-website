@@ -40,12 +40,12 @@ try {
         <div class="row">
             <div class="col-lg-8 text-start hero-text-col" data-aos="fade-up">
                 <h1 class="hero-title-clean mb-3">
-                    Power Your Home with <span class="hero-title-accent">Clean Solar Energy</span>
+                    Power Your Home <br class="d-block d-md-none">with <span class="hero-title-accent">Clean Solar Energy</span>
                 </h1>
                 <p class="hero-lead-clean mb-4">
                     Premium Solar Panels for Homes, Businesses &amp; Industries. Reliable Performance, Expert Installation, and Long-Term Savings.
                 </p>
-                <div class="d-flex align-items-center gap-2 mt-4 hero-btn-group">
+                <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-2 mt-4 hero-btn-group">
                     <a href="<?php echo SITE_URL; ?>/contact.php" class="btn btn-solar-primary font-weight-bold rounded-2">
                         Contact Us <i class="fa-solid fa-arrow-right ms-1"></i>
                     </a>

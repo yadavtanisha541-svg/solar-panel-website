@@ -322,7 +322,7 @@ a {
 }
 
 /* Mobile Responsiveness Clean Layout */
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
     html, body {
         padding-top: 0 !important;
         margin: 0 !important;
@@ -359,10 +359,11 @@ a {
         padding-right: 10px !important;
     }
     .hero-title-clean {
-        font-size: 1.5rem !important;
-        line-height: 1.25 !important;
+        font-size: 1.6rem !important;
+        line-height: 1.28 !important;
         text-align: left !important;
         margin: 0 0 10px 0 !important;
+        word-break: break-word !important;
     }
     .hero-lead-clean {
         font-size: 0.86rem !important;
